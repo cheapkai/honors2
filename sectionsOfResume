@@ -1,0 +1,63 @@
+SECTIONS OF RESUME
+
+
+
+\section{Work Experience}
+\cventry{Summer '18}{Software Engineering Intern}{ARRIS}{Sunnyvale, California, USA}{}{Worked in 'Ruckus IoT' division at Ruckus Networks (an ARRIS company) HQ. Contributed 4000+ lines in the product's front-end source code. Also developed a Simulator software for IoT Gateways and End-Points. The Simulator uses multithreaded MQTT clients with a common state database, and simulates a wide range of Zigbee/BLE IoT device profiles \& capabilities.
+}
+\cventry{Winter '17}{Mobile Application Development Intern}{Froogal.in}{Hyderabad, India}{}{Developed a cross-platform mobile application which connects highway travelers with restaurants. Provides restaurants located on highways with map-based tracking of customer’s location, so that the order can be kept ready by the time the customer arrives.
+}
+
+
+\section{Education}
+\cventry{2016--2020}{B.Tech (Hons.), Computer Science and Engineering}{International Institute of Information Technology (IIIT)}{Hyderabad, India}{\textit{CGPA - 8.87/10}}{}  % arguments 3 to 6 can be left empty
+\cventry{2014--2016}{Senior Secondary, Telangana Board of Intermediate Education}{Sri Chaitanya Junior College}{Hyderabad, India}{\textit{Percentage - 97.5}}{}
+\cventry{2012--2014}{Secondary, CBSE}{Oakridge International School}{Hyderabad, India}{\textit{CGPA - 10/10}}{}
+
+\section{Research}
+\cventry{August 2018 -- present}{Honours Research}{Data Sciences and Analytics Center}{IIIT Hyderabad}{}{Working on a ‘Research Paper Sequence Suggestion’ project under Dr. Vikram Pudi.}
+%\cventry{Monsoon '18}{Teaching Assistant}{Structured Systems Analysis \& Design}{IIIT Hyderabad}{}{Involves making assignments, grading, and conducting tutorials for a class of 173 students. Also involves facilitating communication between students and external clients for course project.}
+
+\section{Skills}
+\cvitem{Languages}{C, C++, Python, Ruby, JavaScript, Racket, MIPS (Assembly Language), Bash, MATLAB}
+\cvitem{OS}{GNU/Linux, Windows}
+\cvitem{Web Dev}{HTML5, CSS, Bootstrap, jQuery, AJAX, ReactJS, Redux}
+\cvitem{Frameworks}{Flask, Ruby on Rails, React Native, OpenGL}
+\cvitem{Databases}{MySQL, SQLite, XQuery, Solr, Neo4j}
+
+
+\definecolor{linkcolor}{RGB}{0, 0, 238}
+
+
+
+
+\section{Projects}
+\cventry{Python}{Ultimate Tic-Tac-Toe (UTTT) Bot}{(Team of 2)}{}{}{Developed an agent that guesses the optimal move using minimax algorithm with alpha-beta pruning, and a smart heuristic function. Placed \textbf{2\textsuperscript{nd}} in AI-course UTTT tournament out of \textbf{75} bots.}
+\cventry{C}{Linux Shell}{}{}{}{Created a bash shell with features like piping, redirection, background \& foreground processes, etc.}
+
+\cventry{Python}{Proxy Server}{}{}{}{Used socket programming to develop an HTTP web proxy server that caches web pages.}
+\cventry{Flask, JS \& SQL}{Photo Gallery Web Application}{}{}{}{Built an Instagram-like web application using Flask, JavaScript, and SQL.}
+\cventry{Python}{Bomberman game}{}{}{}{Developed a terminal-based Bomberman game in Python, without the help of any libraries like pygame, ncurses, etc.}
+\cventry{Ruby on rails}{Quiz Portal}{}{}{}{Developed a state-restoring quizzing application using Ruby On Rails.}
+\cventry{HTML5, CSS \& Flask}{Felicity Buzz Website}{}{}{}{As a team, developed University Fest website using HTML5, CSS, and Flask.}
+\cventry{C++}{2D Animated Game}{}{}{}{Built an arcade game (inspired by ‘Pacman Killer’) in C++ using OpenGL. Incorporated laws of physics and various real-world phenomena (gravity, sinking in water, magnetic field, etc.) into the game.}
+\cventry{C++}{3D World}{}{}{}{Made a complex 3D world emulation using OpenGL in which the user operates a boat and shoots monsters. Implemented many detailed features (wind, booster, coins, bosses, etc.) as well as camera views.}
+
+
+
+
+\section{Achievements \& Co-Curriculars}
+\cvlistitem{\textbf{Dean’s List '17:} Top 5\% in academics in Spring 2017.}
+\cvlistitem{\textbf{JEE Advanced:} Ranked 2185 (top 0.01\% in India) in Joint Entrance Exam (JEE) Advanced.}
+\cvlistitem{\textbf{SAT Subject Tests:} Scored 800/800 in Mathematics, Physics and Chemistry.}
+\cvlistitem{\textbf{Piano:} Awarded Grade 5 Piano Certification by Trinity College, London.}
+\cvlistitem{\textbf{Basketball:} Represented Oakridge International School in CBSE National Basketball Meet 2013. Won two city Inter-School Tournaments as part of the same team.}
+
+
+
+
+
+\section{Relevant Courses Taken}
+\cvitem{}{Statistical Methods in AI, Data Warehousing and Data Mining, Introduction to Databases, Artificial Intelligence, Computer Programming, Data Structures, Algorithms, Discrete Mathematics, Group Theory \& Complex Algebra, Complex Integrals \& Probability Theory, Formal Methods, IT Workshop I \& II, Structured Systems Analysis \& Design, Computer Architecture, Operating Systems, Computer Networks, Digital Signal Analysis \& Applications, Graphics}
+%\cvitem{}{\textit{* = In Progress}}
+

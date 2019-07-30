@@ -1,0 +1,79 @@
+Communication Networks : Socket Programming Assignment 
+
+Roll No:- 20161205
+Name : MEHTHAB SAHEBA SHAIK
+
+Language : Python
+
+Files : client12.py server12.py client122.py server122.py 
+
+        Client12.py and server 122.py run on one computer ; client122.py and server12.py run on one computer
+        C1 & C2 computers
+
+        Both the computers are connected via a wifi hotspot and ifconfig is used to manually enter the ip addresses on the computers         with servers to respective clients. 
+        client12.py on C1 is given ip address of C2 with server122.py running on it. client122.py on C2 is given ip address of C1 with server12.py running on it
+        client12.py and server122.py access the folder SOS1 on C1 .This is the shared folder.client122.py requests information on files in this folder and client12.py downloads files from SOS2 on C2 vis server12.py into this folder. client122.py downloads from SOS1 in SOS2 via server12.py.
+       
+        The code for both the clients(client12.py and client122.py) is the same as is for the servers(server12.py server122.py) save the ip address and shared folder.
+
+        Client can connect to the server running on the same system by using localhost ip address '127.0.0.1' .
+        
+        Let cleint12.py and server12.py run on C1 .The folder SOS is the shared folder .server runs here ,client downloads files from here to folder SOSC . The SOSC folder maintains a file history containing all the commands given by user.
+
+        
+          
+
+ IndexGet :
+
+Commands : IndexGet longlist
+           IndexGet longlist .txt <word_to_search_in_file>
+           IndexGet shortlist <starttimestamp> <endtimestamp>
+           IndexGet shortlist <starttimestamp> <endtimestamp> .<fileextension>
+
+
+
+
+Protocol/Implementation - The client tales input from the server and using a tcp client socket connects to a tcp socket on server (3 sockets are listening on server 2 tcp and 1 udp) .server finds the required files using python libraries and returns the name size timestamp etc information on file to client.
+
+FileHash :
+
+Commands : FileHash checkall
+           FileHash verify <filename>
+
+Implementation : Same as IndexGet
+
+FileDownload : 
+
+Commands : FileDownload TCP <filename>
+           FileDownload UDP <filename>
+
+Implementation : in a while loop a flag is used which toggles if file is correctly received else process is repeated client sends command to server .server returns info on file including MD5 hash .client then creates another socket - udp or tcp depending on flag used - to connect to another server socket tcp/udp respectively.It sends a message. server then begins the file transfer .in tcp connection once buffer is empty for a timeout it closes connection with the server and md5 hash of received file is calculated if it does not match with the md5 received from server earlier the again the client proceeds to send the download command to server. In udp the server sends a message before every file packet .If its "off" file has ended and server and client close connection.The md5 is compares same as tcp.
+
+
+
+
+
+
+  
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+ 
+            
+
+        
+
+ 
+ 

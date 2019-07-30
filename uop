@@ -1,0 +1,28 @@
+#include <bits/stdc++.h>
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;cin >> t;
+	
+	while(t--)
+	{
+	    int i;int j;
+	    cin >> i;cin >> j;
+	    int g=-1;int k=-1;
+	    int A[1001][1001]={0};
+	    for(int y = 0;y<i;y++){
+	    for(int f = 0;f<j;f++)
+	    {int x;cin >> x;if(x==1 && g==-1 && k==-1)
+	        {g=y;k=f;A[y][f]=1;}//cout << y << " ";cout << "ha" << f << endl;}
+	        else if(x==1 && f<k){A[y][f]=1;k=f;g=y; }
+	        else {
+	            if(y>=g && f>=k && g!=-1 && k!=-1)A[y][f]=1;
+	            else A[y][f] = x;}
+	    cout << A[y][f] << " ";}
+	    //cout << y << " ";cout << f << endl;}
+	    cout << endl;}
+	//code
+	}
+	return 0;
+}
